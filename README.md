@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/Hibiscuit0/FrontEndMentor-CardComponent
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://front-end-mentor-card-component.vercel.app/
 
 ## My process
 oops... I tried to set the basics, guessing which structure would be correct, then focused on details.. 
@@ -59,5 +59,5 @@ I still need to practice CSS flexbox. Maybe doing this challenge a second time t
 - [Complete guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - All flexbox explained in this guide.
 
 ## Author
-- Frontend Mentor - [@Hiscuit0](https://www.frontendmentor.io/profile/Hibiscuit0)
+- Frontend Mentor - [@Hibiscuit0](https://www.frontendmentor.io/profile/Hibiscuit0)
 

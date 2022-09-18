@@ -1,0 +1,214 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    font-size: 14px;
+    background-color: hsl(30, 38%, 92%);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.previz {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1em;
+    width: 90vw;
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* Alignement du contenu de chaque item verticalement (axe secondaire)*/
+    align-items: center;
+    /* margin-top: 50vh;
+    transform: translateY(-50%); */
+}
+
+
+
+.previz img {
+    /* background-color: darkolivegreen; */
+    max-width: 90vw;
+    border-radius: 1em 1em 0 0;
+}
+
+.previz>div {
+    /* background-color: coral; */
+    padding: 30px;
+}
+
+.previz div p:first-child {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 12px;
+    margin: 0;
+    /* padding: 15px 0; */
+}
+
+.previz div h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 34px;
+    letter-spacing: 1px;
+    color: hsl(212, 21%, 14%);
+    margin: 18px 15px 22px 0;
+    line-height: 33px;
+}
+
+.previz div h1+p {
+    line-height: 24px;
+}
+
+.price {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.price div {
+    color: hsl(158, 36%, 37%);
+    font-size: 32px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    display: inline-block;
+    margin: 10px 20px 24px 0;
+}
+
+.price del {
+    margin-bottom: 10px;
+}
+
+.previz div button {
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(30, 38%, 92%);
+    border: none;
+    border-radius: 0.5em;
+    padding: 1em 2em;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+}
+
+.previz div button img {
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+#cart:hover {
+    background-color: hsl(158, 35%, 16%);
+    transition: ease-in 200ms;
+}
+
+
+footer {
+    width: 100vw;
+}
+
+/* Responsive desktop */
+@media screen and (min-width: 600px) {
+    .previz {
+        max-width: 40vw;
+        min-width: 600px;
+        margin: 15px auto;
+        flex-wrap: nowrap;
+    }
+
+    .previz img {
+        max-width: 50%;
+        border-radius: 1em 0 0 1em;
+    }
+}
+
+@media screen and (min-width: 1543px) {
+    .previz div h1 {
+        font-size: 40px;
+    }
+
+    .previz div h1+p {
+        line-height: 28px;
+    }
+
+    .previz>div {
+        padding: 30px;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    .previz div h1 {
+        font-size: 40px;
+        margin: 30px 15px 30px 0;
+    }
+
+    .previz div h1+p {
+        line-height: 28px;
+    }
+
+    .previz>div {
+        padding: 45px;
+    }
+
+    .price div {
+        margin: 20px 20px 34px 0;
+    }
+
+}
+
+
+
+/* 
+
+.previz {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0.5em;
+    max-width: 40%;
+    max-height: 50vh;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.previz img {
+    max-width: 100%;
+}
+
+.previz div {
+    width: 100%;
+}
+
+.previz h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 60px;
+    color: hsl(212, 21%, 14%);
+}
+
+.previz div button {
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(30, 38%, 92%);
+    border: none;
+    border-radius: 0.5em;
+    padding: 1em 2em;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 600px) {
+    .previz img {
+        width: 50%;
+        margin: 0;
+        align-items: center;
+    }
+
+    .previz div {
+        width: 50%;
+        margin: 0;
+        background-color: aquamarine;
+    }
+
+} */
